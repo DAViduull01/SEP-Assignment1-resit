@@ -27,7 +27,7 @@ The tool executed was Coverage.py and it was used in the project’s directory w
 This commit is for both functions: https://github.com/opsdroid/opsdroid/compare/main...DAViduull01:SEP-Assignment1-resit:main
 
 Old coverage (coverage html):
-<img width="1268" alt="Screenshot 2024-07-09 at 21 27 22" src="https://github.com/DAViduull01/SEP-Assignment1-resit/assets/122388645/6e1f2285-779f-406b-b206-f2ea584dbc2c">
+<img width="1267" alt="Screenshot 2024-07-09 at 21 27 04" src="https://github.com/DAViduull01/SEP-Assignment1-resit/assets/122388645/79dc7f8d-c906-4b62-8fd2-6964f772723d">
 
 
 New coverage (coverage html):
