@@ -1,63 +1,80 @@
-<h6 align=center>
-<img src="https://github.com/opsdroid/style-guidelines/raw/master/logos/logo-wide-light.png" alt="Opsdroid Logo"/>
-</h6>
+# Report for Assignment 1 resit
 
-<h4 align=center>An open source chat-ops bot framework</h4>
+## Project chosen
 
-<p align=center>
-<a href="https://pypi.python.org/pypi"><img src="https://img.shields.io/pypi/v/opsdroid.svg" alt="Current version of pypi" /></a>
-<a href="https://github.com/opsdroid/opsdroid/actions"><img src="https://github.com/opsdroid/opsdroid/workflows/CI/badge.svg?event=push&branch=master" alt="Github CI Status"></img></a>
-<a href="https://codecov.io/gh/opsdroid/opsdroid"><img src="https://img.shields.io/codecov/c/github/opsdroid/opsdroid.svg" alt="codecov" /></a>
-<a href="https://bettercodehub.com/"><img src="https://bettercodehub.com/edge/badge/opsdroid/opsdroid?branch=master" alt="BCH compliance" /></a>
-<a href="https://hub.docker.com/r/opsdroid/opsdroid/builds/"><img src="https://img.shields.io/docker/build/opsdroid/opsdroid.svg" alt="Docker Build" /></a>
-<a href="https://hub.docker.com/r/opsdroid/opsdroid/builds/"><img alt="Docker Image Size (latest by date)" src="https://img.shields.io/docker/image-size/opsdroid/opsdroid?label=image%20size"></a><a href="https://microbadger.com/#/images/opsdroid/opsdroid"><img src="https://img.shields.io/microbadger/layers/opsdroid/opsdroid.svg" alt="Docker Layers" /></a>
-<a href="http://opsdroid.readthedocs.io/en/stable/?badge=stable"><img src="https://img.shields.io/readthedocs/opsdroid/latest.svg" alt="Documentation Status" /></a>
-<a href="https://app.element.io/#/room/#opsdroid-general:matrix.org"><img src="https://img.shields.io/matrix/opsdroid-general:matrix.org.svg?logo=matrix" alt="Matrix Chat" /></a>
-<a href="#backers"><img src="https://opencollective.com/opsdroid/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="#sponsors"><img src="https://opencollective.com/opsdroid/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-<a href="https://www.codetriage.com/opsdroid/opsdroid"><img src="https://www.codetriage.com/opsdroid/opsdroid/badges/users.svg" alt="Open Source Helpers" /></a>
-</p>
+Name: opsdroid
 
----
+URL: https://github.com/DAViduull01/SEP-Assignment1-resit.git
 
-<p align="center">
-  <a href="https://docs.opsdroid.dev/en/stable/quickstart.html">Quick Start</a> •
-  <a href="https://docs.opsdroid.dev">Documentation</a> •
-  <a href="https://playground.opsdroid.dev">Playground</a> •
-  <a href="https://medium.com/opsdroid">Blog</a> •
-  <a href="https://app.element.io/#/room/#opsdroid-general:matrix.org">Community</a>
-</p>
+Number of lines of code and the tool used to count it: 25.594 , lizard
 
----
+Programming language: Python
 
-An open source chatbot framework written in Python. It is designed to be extendable, scalable and simple.
+## Coverage measurement with existing tool
 
-This framework is designed to take events from chat services and other sources and execute Python functions (skills) based on their contents. Those functions can be anything you like, from simple conversational responses to running complex tasks. The true power of this project is to act as a glue library to bring the multitude of natural language APIs, chat services and third-party APIs together.
+The tool executed was Coverage.py and it was used in the project’s directory with the following command: ‘coverage run -m unittest discover’ .
 
-See [our full documentation](https://docs.opsdroid.dev) to get started.
 
-### Contributors
 
-This project exists thanks to all the people who contribute. [[Contribute](https://docs.opsdroid.dev/en/stable/contributing/)].
-<a href="https://github.com/opsdroid/opsdroid/graphs/contributors"><img src="https://opencollective.com/opsdroid/contributors.svg?width=890" /></a>
+## Coverage improvement
 
-## Backers
+### Individual tests
 
-Thank you to all our backers! 🙏 [[Become a backer](https://opencollective.com/opsdroid#backer)]
+<Function 1> ‘_get_messages’
 
-<a href="https://opencollective.com/opsdroid#backers" target="_blank"><img src="https://opencollective.com/opsdroid/backers.svg?width=890"></a>
+This commit is for both functions: https://github.com/opsdroid/opsdroid/compare/main...DAViduull01:SEP-Assignment1-resit:main
 
-## Sponsors
+Old coverage (coverage html):
 
-Support this project by becoming a sponsor. Your logo will show up here with a link to your website. [[Become a sponsor](https://opencollective.com/opsdroid#sponsor)]
 
-<a href="https://opencollective.com/opsdroid/sponsor/0/website" target="_blank"><img src="https://opencollective.com/opsdroid/sponsor/0/avatar.svg"></a>
-<a href="https://opencollective.com/opsdroid/sponsor/1/website" target="_blank"><img src="https://opencollective.com/opsdroid/sponsor/1/avatar.svg"></a>
-<a href="https://opencollective.com/opsdroid/sponsor/2/website" target="_blank"><img src="https://opencollective.com/opsdroid/sponsor/2/avatar.svg"></a>
-<a href="https://opencollective.com/opsdroid/sponsor/3/website" target="_blank"><img src="https://opencollective.com/opsdroid/sponsor/3/avatar.svg"></a>
-<a href="https://opencollective.com/opsdroid/sponsor/4/website" target="_blank"><img src="https://opencollective.com/opsdroid/sponsor/4/avatar.svg"></a>
-<a href="https://opencollective.com/opsdroid/sponsor/5/website" target="_blank"><img src="https://opencollective.com/opsdroid/sponsor/5/avatar.svg"></a>
-<a href="https://opencollective.com/opsdroid/sponsor/6/website" target="_blank"><img src="https://opencollective.com/opsdroid/sponsor/6/avatar.svg"></a>
-<a href="https://opencollective.com/opsdroid/sponsor/7/website" target="_blank"><img src="https://opencollective.com/opsdroid/sponsor/7/avatar.svg"></a>
-<a href="https://opencollective.com/opsdroid/sponsor/8/website" target="_blank"><img src="https://opencollective.com/opsdroid/sponsor/8/avatar.svg"></a>
-<a href="https://opencollective.com/opsdroid/sponsor/9/website" target="_blank"><img src="https://opencollective.com/opsdroid/sponsor/9/avatar.svg"></a>
+New coverage (coverage html):
+
+
+Before the modifications the coverage was 0% because there were no tests to cover this function. After the modifications, which include simulating async iteration, testing with no messages, valid messages, and bot messages, and verifying the correct sleep interval, the coverage result went up to 100%.
+
+
+<Function 2> ‘parse_message’
+
+This commit is for both functions: https://github.com/opsdroid/opsdroid/compare/main...DAViduull01:SEP-Assignment1-resit:main
+
+Old coverage (coverage html):
+
+
+New coverage (coverage html):
+
+
+Before the modifications, the coverage was 0% because the only two tests were not covering the function properly. After the modifications the coverage went up to 100%. This improvement is due to the addition of tests that cover edge cases such as handling empty messages and logging errors for incomplete JSON inputs. These tests ensure that more branches of the code are executed and potential error scenarios are handled correctly, thus increasing the overall coverage.
+
+
+
+
+
+
+
+
+
+
+
+
+### Overall
+
+Old coverage results:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+New coverage results:
+
+
