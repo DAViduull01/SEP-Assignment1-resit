@@ -28,6 +28,7 @@ Old coverage (coverage html):
 
 
 New coverage (coverage html):
+<img width="854" alt="Screenshot 2024-07-09 at 19 35 32" src="https://github.com/DAViduull01/SEP-Assignment1-resit/assets/122388645/9732b260-2390-46c8-9699-71e83ce24023">
 
 
 Before the modifications the coverage was 0% because there were no tests to cover this function. After the modifications, which include simulating async iteration, testing with no messages, valid messages, and bot messages, and verifying the correct sleep interval, the coverage result went up to 100%.
@@ -41,6 +42,7 @@ Old coverage (coverage html):
 
 
 New coverage (coverage html):
+<img width="854" alt="Screenshot 2024-07-09 at 15 10 47" src="https://github.com/DAViduull01/SEP-Assignment1-resit/assets/122388645/63c8650a-7537-4de6-bf1b-c9f953a8379a">
 
 
 Before the modifications, the coverage was 0% because the only two tests were not covering the function properly. After the modifications the coverage went up to 100%. This improvement is due to the addition of tests that cover edge cases such as handling empty messages and logging errors for incomplete JSON inputs. These tests ensure that more branches of the code are executed and potential error scenarios are handled correctly, thus increasing the overall coverage.
