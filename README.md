@@ -77,4 +77,6 @@ Old coverage results:
 
 New coverage results:
 
+<img width="1512" alt="Screenshot 2024-07-09 at 20 25 02" src="https://github.com/DAViduull01/SEP-Assignment1-resit/assets/122388645/ff227d7e-bd81-4971-8a5c-a84136703028">
+<img width="1512" alt="Screenshot 2024-07-09 at 20 25 16" src="https://github.com/DAViduull01/SEP-Assignment1-resit/assets/122388645/f9cf34ad-c96d-42ea-b860-128b93d8ac10">
 
