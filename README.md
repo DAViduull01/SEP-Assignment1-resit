@@ -13,6 +13,8 @@ Programming language: Python
 ## Coverage measurement with existing tool
 
 The tool executed was Coverage.py and it was used in the project’s directory with the following command: ‘coverage run -m unittest discover’ .
+<img width="1512" alt="Screenshot 2024-07-09 at 21 25 26" src="https://github.com/DAViduull01/SEP-Assignment1-resit/assets/122388645/b5427681-fa6e-4c82-ad84-cab24fb1be60">
+<img width="1512" alt="Screenshot 2024-07-09 at 21 25 37" src="https://github.com/DAViduull01/SEP-Assignment1-resit/assets/122388645/5cad4cbe-81b5-4b30-9200-cf6baec8a042">
 
 
 
@@ -25,6 +27,7 @@ The tool executed was Coverage.py and it was used in the project’s directory w
 This commit is for both functions: https://github.com/opsdroid/opsdroid/compare/main...DAViduull01:SEP-Assignment1-resit:main
 
 Old coverage (coverage html):
+<img width="1268" alt="Screenshot 2024-07-09 at 21 27 22" src="https://github.com/DAViduull01/SEP-Assignment1-resit/assets/122388645/6e1f2285-779f-406b-b206-f2ea584dbc2c">
 
 
 New coverage (coverage html):
@@ -39,6 +42,7 @@ Before the modifications the coverage was 0% because there were no tests to cove
 This commit is for both functions: https://github.com/opsdroid/opsdroid/compare/main...DAViduull01:SEP-Assignment1-resit:main
 
 Old coverage (coverage html):
+<img width="1268" alt="Screenshot 2024-07-09 at 21 27 22" src="https://github.com/DAViduull01/SEP-Assignment1-resit/assets/122388645/e65c1178-634e-4b18-a15b-52da5537a007">
 
 
 New coverage (coverage html):
@@ -61,6 +65,9 @@ Before the modifications, the coverage was 0% because the only two tests were no
 ### Overall
 
 Old coverage results:
+
+<img width="1512" alt="Screenshot 2024-07-09 at 21 25 26" src="https://github.com/DAViduull01/SEP-Assignment1-resit/assets/122388645/b32349b6-e669-48ca-9045-8497c80de9f2">
+<img width="1512" alt="Screenshot 2024-07-09 at 21 25 37" src="https://github.com/DAViduull01/SEP-Assignment1-resit/assets/122388645/23b4b072-6fbd-4240-861e-eadeb3509e91">
 
 
 
