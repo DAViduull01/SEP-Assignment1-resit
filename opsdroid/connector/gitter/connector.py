@@ -9,6 +9,11 @@ from voluptuous import Required
 from opsdroid.connector import Connector, register_event
 from opsdroid.events import Message
 
+import gettext
+
+# Initialize the gettext module
+_ = gettext.gettext
+
 _LOGGER = logging.getLogger(__name__)
 GITTER_STREAM_API = "https://stream.gitter.im"
 GITTER_BASE_API = "https://api.gitter.im"
